@@ -1,0 +1,21 @@
+.icon {
+	@apply h-[75px] w-[75px] relative overflow-hidden shrink-0;
+}
+
+.iconWrapper {
+	@apply flex flex-row items-start justify-end pr-16 pl-16 py-0;
+}
+
+.descriptions {
+	@apply w-[206px] relative leading-[26px] font-medium flex items-center justify-center;
+}
+
+.cardWrapper {
+	@apply flex  font-['Poppins'] items-center w-[400px] bg-white flex-col justify-start pt-12 pr-5 pb-10 pl-5 box-border gap-7 max-w-full text-center text-[20px] text-black -ml-0.5;
+}
+
+@media screen and (max-width: 450px) {
+	.heading3 {
+		@apply text-base leading-[21px];
+	}
+}

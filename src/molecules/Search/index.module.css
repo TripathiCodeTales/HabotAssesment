@@ -1,0 +1,70 @@
+.searchContainer {
+	@apply flex justify-center text-white w-full text-5xl text-center pb-20 pl-5 font-['Poppins'];
+}
+
+.mainImg {
+	@apply w-full h-[625px] absolute object-cover top-0 right-0 left-0;
+}
+
+.searchWrapper {
+	@apply flex flex-col justify-start items-start max-w-full gap-9;
+}
+
+.mainSecton {
+	@apply flex flex-col justify-start max-w-full items-end gap-9 self-stretch;
+}
+
+.headingContainer {
+	@apply z-10 self-stretch leading-[66px];
+}
+
+.searchBoxContainer {
+	@apply flex flex-wrap justify-center items-start text-base text-[#6b7280] gap-2.5;
+}
+
+.searchBox {
+	@apply flex justify-start items-start bg-white z-20 rounded border-[#d1d5db] p-2;
+}
+
+.searchButton {
+	@apply flex self-stretch z-20 rounded bg-[#00732f] border-[#00732f] px-8 py-4;
+}
+
+.bottomSection {
+	@apply flex items-start justify-center text-lg w-full;
+}
+
+.subHeadingContainer {
+	@apply z-20;
+}
+
+.bottomText {
+	@apply whitespace-pre-wrap;
+}
+
+.hyperLink {
+	@apply underline;
+}
+
+@media screen and (max-width: 768px) {
+	.headingContainer {
+		@apply text-2xl leading-[36px];
+	}
+	.searchButton {
+		@apply px-32;
+	}
+	.mainImg {
+		@apply h-[600px];
+	}
+
+	.searchContainer {
+		padding-left: 0.25rem;
+		padding-bottom: 0;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.mainImg {
+		@apply h-[500px];
+	}
+}

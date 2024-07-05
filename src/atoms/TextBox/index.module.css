@@ -1,0 +1,21 @@
+.inputWrapper,
+.form,
+.input {
+  @apply flex flex-row justify-start box-border;
+}
+
+.inputWrapper {
+  @apply w-[339.1px] overflow-hidden shrink-0 items-start pt-px pb-0.5 pl-5 max-w-[calc(100%_-_15px)] -ml-1.5 pr-[20px];
+}
+
+.inputPlaceholder {
+  @apply h-4 w-[340.5px] relative font-light flex items-center shrink-0;
+}
+
+.inputIcon {
+  @apply h-[21px] w-[21px] relative overflow-hidden shrink-0 min-h-[21px] z-[1];
+}
+
+.inputContainer {
+  @apply flex flex-row items-start justify-start box-border max-w-full  flex-1 bg-white items-end pt-2 pr-px pb-2 pl-px max-w-full;
+}

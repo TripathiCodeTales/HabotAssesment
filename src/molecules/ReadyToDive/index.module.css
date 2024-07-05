@@ -1,0 +1,49 @@
+.readyToDiveWrapper {
+	@apply flex items-start justify-center self-stretch max-w-full p-5;
+}
+
+.readyToDiveContainer {
+	@apply flex flex-col w-full max-w-full justify-start items-end gap-28 px-10;
+}
+
+.container {
+	@apply flex w-full self-stretch text-black text-4xl font-['Poppins'];
+}
+
+.wrapper {
+	@apply flex max-w-full items-start flex-1 justify-between gap-5;
+}
+
+.leftSection {
+	@apply flex flex-wrap justify-start items-start flex-col gap-11;
+}
+
+.leftSectionWrapper {
+	@apply flex  flex-wrap flex-col justify-start items-start max-w-full self-stretch gap-6;
+}
+
+.readyToDiveText {
+	@apply text-lg font-light;
+}
+
+.rightSection {
+	@apply flex  flex-wrap flex-col text-[#3e3e3e] font-['Inter'] pt-3.5 justify-center items-center text-lg;
+}
+
+.cityWrapper {
+	@apply flex flex-wrap items-start gap-5;
+}
+
+.signUpToday {
+	@apply w-[300px]
+}
+
+.signUpBtn {
+	@apply w-full p-4
+}
+
+@media screen and (max-width: 450px) {
+	.wrapper {
+		@apply flex-wrap;
+	}
+}

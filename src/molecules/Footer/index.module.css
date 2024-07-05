@@ -1,0 +1,37 @@
+.footerContainer {
+	@apply flex justify-center w-full bg-[#123557] text-white p-12;
+}
+
+.footerWrapper {
+	@apply flex flex-wrap justify-between items-center border-y border-gray-200 py-8 w-4/5;
+}
+
+.footerMenus {
+	@apply flex justify-center items-start flex-wrap w-[747px] flex-row gap-y-5;
+}
+
+.footerLinks {
+	@apply flex flex-col max-w-full flex-1 pt-[19px];
+}
+
+.linksContainer2 {
+	@apply flex justify-between;
+}
+
+.footerImg {
+	@apply h-[55px];
+}
+
+.section {
+	@apply flex flex-col gap-4;
+}
+
+.socialList {
+	@apply flex gap-4;
+}
+
+@media screen and (max-width: 450px) {
+	.footerImg {
+		@apply w-[200px];
+	}
+}

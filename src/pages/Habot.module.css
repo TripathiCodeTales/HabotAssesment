@@ -1,0 +1,9 @@
+.mainContainer {
+	@apply w-full flex flex-col items-end justify-center gap-32 bg-white;
+}
+
+@media screen and (max-width: 450px) {
+	.mainContainer {
+		@apply gap-8;
+	}
+}

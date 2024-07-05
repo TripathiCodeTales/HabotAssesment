@@ -1,0 +1,121 @@
+.i8tgrhxx4oqSd1Icon {
+	@apply h-[350px] flex-1 relative rounded max-w-full overflow-hidden object-cover;
+}
+.progressBar {
+	@apply absolute rounded bg-white w-[53.7px] h-[40.1px] left-[19.1px] top-[17.5px];
+}
+.playButtonIcon {
+	@apply absolute h-full w-full max-w-full overflow-hidden max-h-full z-[1] inset-0;
+}
+.progressBarParent {
+	@apply h-[75.2px] w-[106.3px] absolute z-[1] m-0 right-[266.7px] top-[137px];
+}
+.videoContainer {
+	@apply flex-1 flex flex-row items-start justify-start relative min-w-[416px] max-w-full;
+}
+.buyer {
+	@apply relative leading-8 inline-block min-w-[79px];
+}
+.buyerStep {
+	@apply flex flex-row items-start justify-start pr-16 pl-16 py-0;
+}
+.highlightShape {
+	@apply self-stretch h-1 relative rounded bg-[#eb7150];
+}
+.buyerStepParent {
+	@apply w-[202px] flex flex-col items-start justify-start gap-2.5;
+}
+.supplier {
+	@apply relative leading-8 inline-block min-w-[112px];
+}
+.stepsContainer,
+.supplierStep {
+	@apply flex items-start;
+}
+.supplierStep {
+	@apply flex-col justify-start pt-[2px] text-white pb-0 px-0;
+}
+.stepsContainer {
+	@apply w-[402px] flex-row justify-between max-w-full gap-5;
+}
+.checked21 {
+	@apply w-[18px] h-[18px] relative overflow-hidden shrink-0;
+}
+.checked21Parent,
+.descriptionContent {
+	@apply flex flex-col items-start justify-start;
+}
+.checked21Parent {
+	@apply gap-5;
+}
+.descriptionContent {
+	@apply pt-5 pb-0 px-0;
+}
+.chooseAmongThe,
+.postYourRequirements,
+.sitBackFor {
+	@apply m-0;
+}
+.postYourRequirementsContainer {
+	@apply flex-1 relative leading-[39px] font-medium inline-block min-w-[300px] max-w-full;
+}
+.descriptionContentParent {
+	@apply self-stretch flex-row gap-5 text-[length:18px] text-white;
+}
+.descriptionContentParent,
+.stepsContent,
+.stepsContentWrapper,
+.videoBuyer {
+	@apply flex items-start justify-start max-w-full;
+}
+.stepsContent {
+	@apply self-stretch flex-col gap-10;
+}
+.stepsContentWrapper,
+.videoBuyer {
+	@apply box-border;
+}
+.stepsContentWrapper {
+	@apply w-[489px] flex-col pt-2.5 min-w-[489px] pb-0 px-0;
+}
+.videoBuyer {
+	@apply self-stretch rounded bg-[#072f57] overflow-hidden flex-row pt-32 pr-12 pb-32 pl-16 gap-16 text-left text-[length:26px] text-[#eb7150] font-['Poppins'];
+}
+
+@media screen and (max-width: 1225px) {
+	.stepsContentWrapper {
+		@apply flex-1;
+	}
+	.videoBuyer {
+		@apply flex-wrap pl-9 pr-6 box-border;
+	}
+}
+@media screen and (max-width: 750px) {
+	.videoContainer {
+		@apply min-w-full;
+	}
+	.descriptionContentParent {
+		@apply flex-wrap;
+	}
+	.stepsContent {
+		@apply gap-5;
+	}
+	.stepsContentWrapper {
+		@apply min-w-full;
+	}
+	.videoBuyer {
+		@apply gap-8 py-20 box-border;
+	}
+}
+@media screen and (max-width: 450px) {
+	.buyer,
+	.supplier {
+		@apply text-xl leading-[26px];
+	}
+	.stepsContainer {
+		@apply flex-wrap;
+	}
+	.videoBuyer {
+		@apply gap-4;
+	}
+}

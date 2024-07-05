@@ -1,0 +1,39 @@
+.headerContainer {
+	@apply flex justify-between items-end w-full px-3 py-4 bg-white z-10;
+}
+
+.headerIcon {
+	height: 43px;
+}
+
+.headerContent {
+	@apply flex flex-row items-center justify-center gap-10;
+}
+
+.headerTag {
+	@apply flex items-center gap-2;
+}
+
+.loginBtn {
+	@apply flex border rounded border-green-700 cursor-pointer px-4 py-3;
+}
+
+.loginText {
+	@apply font-bold text-[#00732f] font-bold;
+}
+
+@media screen and (max-width: 450px) {
+	.headerIcon {
+		height: 20px;
+	}
+	.headerContent {
+		@apply gap-1 text-xs;
+	}
+	.loginBtn {
+		@apply px-1 py-1;
+	}
+	.headerContent,
+	.headerTag {
+		@apply text-[10px];
+	}
+}

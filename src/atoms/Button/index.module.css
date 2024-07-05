@@ -1,0 +1,22 @@
+
+.iconWrapper {
+	@apply flex-col pt-px pb-0 px-0;
+}
+
+.buttonContainer,
+.iconWrapper,
+.signUpContentWrapper {
+	@apply flex items-start justify-start;
+}
+
+.buttonContainer {
+	@apply cursor-pointer border border-[#00732f] bg-[#00732f] w-[118px] rounded box-border overflow-hidden flex-row gap-2.5 border-solid;
+}
+
+.buttonIcon {
+	@apply w-8 h-[16.1px] relative z-[1];
+}
+
+.buttonText {
+	@apply flex-1 relative text-lg leading-6 text-white text-center font-['Poppins']
+}

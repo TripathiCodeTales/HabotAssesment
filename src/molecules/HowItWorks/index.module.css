@@ -1,0 +1,29 @@
+.howItWorkContainer {
+	@apply flex justify-center items-center self-stretch text-4xl text-center;
+}
+
+.howItWorkWrapper {
+	@apply flex flex-col justify-start items-start w-full gap-8;
+}
+
+.headingWrapper {
+	@apply flex flex-col justify-center w-full;
+}
+
+.heading {
+	@apply flex w-full justify-center;
+}
+
+.cardsWrapper {
+	@apply flex justify-center items-center flex-wrap;
+}
+
+.subHeading {
+	@apply px-60 text-lg text-black flex flex-wrap;
+}
+
+@media screen and (max-width: 450px) {
+	.subHeading {
+		@apply px-20;
+	}
+}

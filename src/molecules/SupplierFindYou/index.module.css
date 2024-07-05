@@ -1,0 +1,42 @@
+.supplierFindYouContainer {
+	@apply flex justify-center items-center w-full text-black text-4xl;
+}
+
+.supplierFindYouWrapper {
+	@apply bg-[#e8fbff] p-12 flex-1 flex justify-center items-center flex-wrap;
+}
+
+.leftSectionContainer {
+	@apply flex flex-col items-start justify-end max-w-full pb-1 min-w-[40%];
+}
+
+.sectionTitle {
+	@apply font-bold;
+}
+
+.sectionBottom {
+	@apply flex justify-end;
+}
+
+.sectionDivider {
+	@apply h-1 w-[159px] relative bg-[#eb7150];
+}
+
+.buttonWrapper {
+	@apply bg-[#eb7150] rounded-md text-lg px-20 py-5 whitespace-nowrap text-white;
+}
+
+@media screen and (max-width: 768px) {
+	.supplierFindYouWrapper {
+		@apply flex-col gap-8;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.sectionTitle {
+		@apply text-2xl;
+	}
+	.buttonWrapper {
+		@apply text-base px-12 py-4;
+	}
+}
